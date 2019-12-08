@@ -1,0 +1,16 @@
+---
+- name: install needed os packages
+  apt:
+    name:
+      - python-setuptools   # needed if ansible uses python2
+      - python3-setuptools
+      - python3-pip
+      - python3-dev
+    state: present
+
+- name: install jupyter python module
+  pip:
+    name:
+      - jupyter
+      - jupyter-plotly-dash
+    executable: /usr/bin/pip3

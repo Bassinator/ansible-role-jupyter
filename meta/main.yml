@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Bastian Bukatz
+  description: Role to setup a jupyter based pythen development environment
+  company: einfachIT
+
+  license: GPLv2
+
+  min_ansible_version: 2.2
+
+  platforms:
+  - name: debian
+    versions:
+      - stretch
+      - buster
+
+  galaxy_tags: []
+
+dependencies: []
