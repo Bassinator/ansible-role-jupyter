@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: jupyter
   author: Bastian Bukatz
   description: Role to setup a jupyter based pythen development environment
   company: einfachIT
