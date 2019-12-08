@@ -12,5 +12,6 @@
   pip:
     name:
       - jupyter
+      - jupyter_client
       - jupyter-plotly-dash
-    executable: /usr/bin/pip3
+    executable: pip3
